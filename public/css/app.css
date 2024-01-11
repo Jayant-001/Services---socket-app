@@ -1,0 +1,23 @@
+body {
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232323;
+}
+
+nav li {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: #FE5F1E;
+}
+
+.hero {
+  border: 1px solid black;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

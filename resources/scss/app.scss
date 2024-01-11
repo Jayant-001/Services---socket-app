@@ -1,0 +1,24 @@
+@import './variables';
+
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: $dark;
+}
+
+nav li {
+    transition: $smooth;
+    cursor: pointer;
+    &:hover {
+
+        color: $primary;
+    }
+}
+
+.hero {
+    border: 1px solid black;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
